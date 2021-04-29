@@ -1,0 +1,94 @@
+omnia@ubuntu:/$ sudo su
+[sudo] password for omnia: 
+root@ubuntu:/# cd /home
+root@ubuntu:/home# mkdir task
+root@ubuntu:/home# ls
+abo-shaban  task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# mkdir omnia1 omnia2
+root@ubuntu:/home/task# ls
+omnia1    omnia2 
+root@ubuntu:/home/task# cd omnia1 
+root@ubuntu:/home/task/omnia1# cat > file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt   
+clear
+$_
+root@ubuntu:/home/task/omnia1# cat file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt
+clear
+$_
+root@ubuntu:/home/task/omnia1# cat > file2.txt
+this is file 2
+Ahmed mohammed shaban
+operating system
+root@ubuntu:/home/task/omnia1# cat > file3.txt
+^C
+root@ubuntu:/home/task/omnia1# cat file3.txt
+root@ubuntu:/home/task/omnia1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/omnia1# cp file1.txt /home/task/omnia2
+root@ubuntu:/home/task/omnia1# cd ../
+root@ubuntu:/home/task# cd omnia2
+root@ubuntu:/home/task/omnia2# ls
+file1.txt
+root@ubuntu:/home/task/omnia2# cd ../..
+root@ubuntu:/home# ls |grep a|grep A
+root@ubuntu:/home# ls
+abo-shaban  task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# ls |grep a|grep A
+root@ubuntu:/home/task# ls 
+ahmed1  ahmed2
+root@ubuntu:/home/task# cd omnia1
+root@ubuntu:/home/task/omnia1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/omnia1# cat > om.txt
+sfhagkjhgk;jlhlf;sg
+^C
+root@ubuntu:/home/task/ahmed1# cat > om1.txt
+dfhghdghdg^C
+root@ubuntu:/home/task/omnia1# ls
+om.txt  om1.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/omnia1# ls |grep a|grep A
+root@ubuntu:/home/task/omnia1# ls | grep a| grep A
+root@ubuntu:/home/task/omnia1# ls
+om.txt  om1.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/omnia1# ls | grep a
+om1.txt
+root@ubuntu:/home/task/ahmed1# ls | grep A
+om.txt
+root@ubuntu:/home/task/omnia1# ls | wc-1
+wc-1: command not found
+root@ubuntu:/home/task/omnia1# ls | wc-l
+wc-l: command not found
+root@ubuntu:/home/task/omnia1 ls | wc l
+wc: l: No such file or directory
+root@ubuntu:/home/task/omnia1# ls | Wc-l
+Wc-l: command not found
+root@ubuntu:/home/task/omnia1# ls | WC-l
+WC-l: command not found
+root@ubuntu:/home/task/omnia1# ls -1 | wc -l
+5
+root@ubuntu:/home/task/omnia1# ls | wc -l
+5
+root@ubuntu:/home/omnia# touch language.c
+root@ubuntu:/home/omnia# gcc -o helloahmed language.c
+root@ubuntu:/home/omnia# ./a.out language c
+oot@ubuntu:/home/omnia# date
+Thu 29 Apr 2021 10:45:53 PM PDT
+root@ubuntu:/home/omnia# ls
+Desktop  Documents  Downloads  language.c  Music  Pictures  Public  Templates  Videos
+root@ubuntu:/home/omnia# pwd
+/home/abo-shaban
